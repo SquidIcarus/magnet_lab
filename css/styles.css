@@ -18,29 +18,37 @@
     box-sizing: border-box;
 }
 
-.magnet {
-    border: 2px solid green;
-    padding: 10px;
-    background-color: black;
-    color: white;
+.special text {
+    display: block;
     text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 50%;
-    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
 }
 
-.sidebar {
-    width: 50%;
-    float: left;
-    background-color: darkviolet;
+.my-class {
     border: 2px solid green;
     padding: 10px;
     background-color: orange;
     display: block;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 15%;
+    width: 50%;
+    box-sizing: content-box;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.outro {
+    border: 2px solid orange;
+    padding: 10px;
+    background-color: purple;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    box-sizing: content-box;
+    text-align: center;
     box-sizing: border-box;
 }
