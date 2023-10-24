@@ -1,3 +1,32 @@
+@media screen and (min-width: 1000px) {
+    .column {
+        width: 300px;
+        float: left;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .outro {
+        width: 300px;
+        float: left;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    body {
+        background-color: chocolate;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 780px) {
+    body { 
+        background-color: rebeccapurple;
+        color: white;
+    }
+    
+}
 .centered-image {
     margin: auto;
     width: 50%;
@@ -50,4 +79,5 @@
     width: 50%;
     box-sizing: content-box;
     box-sizing: border-box;
+    text-align: center;
 }
